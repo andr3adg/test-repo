@@ -9,6 +9,7 @@ async function run() {
     core.info('Begin');
 
     // get inputs
+    const newVal = 1;
     const token = core.getInput('token', { required: true });
     const name = core.getInput('name', { required: true });
     const path = core.getInput('path', { required: true });
